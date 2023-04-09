@@ -20,11 +20,6 @@ body {
     align-items:center;
 }
 
-@media screen and (max-width: 480px) {
-    .header,.sidebar,.content {
-        display:none;
-    }
-}
 
 
 
