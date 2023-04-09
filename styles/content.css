@@ -20,6 +20,21 @@ body {
     align-items:center;
 }
 
+.phone-warning {
+    opacity:0;
+    font-size:16px;
+    font-family: roboto, arial;
+}
+@media screen and (max-width: 480px) {
+    .header,.sidebar,.content {
+        opacity:0;
+    }
+    .phone-warning {
+        opacity:1 !important;
+    }
+}
+
+
 
 
 
