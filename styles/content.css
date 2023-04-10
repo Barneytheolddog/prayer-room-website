@@ -36,6 +36,8 @@ body {
     .phone-warning {
         opacity:1 !important;
         z-index: 2000;
+        vertical-align:center;
+        text-align:center;
     }
     .body {
         text-align:center;
