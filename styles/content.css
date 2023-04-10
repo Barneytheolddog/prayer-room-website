@@ -35,6 +35,10 @@ body {
     }
     .phone-warning {
         opacity:1 !important;
+        z-index: 2000;
+    }
+    .body {
+        text-align:center;
     }
 }
 
