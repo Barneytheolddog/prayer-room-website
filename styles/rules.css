@@ -29,14 +29,41 @@ body {
     left:25%;
     margin:0;
 }
-@media screen and (max-width: 480px) {
+@media only screen
+    and (max-device-width: 480px) 
+    and (orientation: portrait) {
     .header,.sidebar,.content {
         opacity:0;
     }
     .phone-warning {
         opacity:1 !important;
+        z-index: 2000;
+        vertical-align:center;
+        text-align:center;
+    }
+    .body {
+        text-align:center;
     }
 }
+@media only screen
+    and (max-device-width: 480px) 
+    and (orientation: landscape) {
+    .header,.sidebar,.content {
+        opacity:0;
+    }
+    .phone-warning {
+        opacity:1 !important;
+        z-index: 2000;
+        vertical-align:center;
+        text-align:center;
+    }
+    .body {
+        text-align:center;
+    }
+}
+
+
+
 
 
 
