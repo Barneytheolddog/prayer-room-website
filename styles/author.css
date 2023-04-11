@@ -31,7 +31,7 @@ body {
 @media only screen
     and (max-device-width: 480px) 
     and (orientation: portrait) {
-    .header,.sidebar,.content {
+    body {
         opacity:0;
     }
     .phone-warning {
@@ -47,7 +47,7 @@ body {
 @media only screen
     and (max-device-width: 480px) 
     and (orientation: landscape) {
-    .header,.sidebar,.content {
+    body {
         opacity:0;
     }
     .phone-warning {
