@@ -2,7 +2,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function myFunction() {
   // Code to be executed
   alert('This website is not compatible on mobile devices')
-}
+
 
 // Call the function every 5 seconds using setInterval()
 setInterval(myFunction, 500);
