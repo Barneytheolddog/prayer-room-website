@@ -38,7 +38,6 @@ body {
     .phone-warning {
         opacity:1 !important;
         z-index: 2000;
-        vertical-align:center;
         text-align:center;
     }
     .body {
@@ -46,7 +45,7 @@ body {
     }
 }
 @media only screen
-    and (max-device-width: 480px) 
+    and (max-device-height: 480px) 
     and (orientation: landscape) {
     .header,.sidebar,.content {
         opacity:0;
@@ -54,7 +53,6 @@ body {
     .phone-warning {
         opacity:1 !important;
         z-index: 2000;
-        vertical-align:center;
         text-align:center;
     }
     .body {
