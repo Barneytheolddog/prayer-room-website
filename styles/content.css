@@ -30,7 +30,7 @@ body {
     margin:0;
 }
 @media only screen
-    and (max-device-width: 480px) 
+    and (max-width: 480px) 
     and (orientation: portrait) {
     body {
         opacity:0;
@@ -48,7 +48,7 @@ body {
     }
 }
 @media only screen
-    and (max-device-height: 480px) 
+    and (max-height: 480px) 
     and (orientation: landscape) {
     body {
         opacity:0;
