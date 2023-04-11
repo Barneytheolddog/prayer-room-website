@@ -20,15 +20,6 @@ body {
     align-items:center;
 }
 
-.phone-warning {
-    opacity:0;
-    font-size:16px;
-    font-family: roboto, arial;
-    position:absolute;
-    top:0;
-    left:25%;
-    margin:0;
-}
 
 
 
