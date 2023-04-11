@@ -29,10 +29,10 @@ body {
     left:25%;
     margin:0;
 }
-@media only screen
+@media only screen and
     and (max-device-width: 480px) 
     and (orientation: portrait) {
-    .header,.sidebar,.content {
+    body {
         opacity:0;
     }
     .phone-warning {
@@ -40,14 +40,14 @@ body {
         z-index: 2000;
         text-align:center;
     }
-    .body {
+    body {
         text-align:center;
     }
 }
-@media only screen
+@media only screen and
     and (max-device-height: 480px) 
     and (orientation: landscape) {
-    .header,.sidebar,.content {
+    body {
         opacity:0;
     }
     .phone-warning {
@@ -55,7 +55,7 @@ body {
         z-index: 2000;
         text-align:center;
     }
-    .body {
+    body {
         text-align:center;
     }
 }
