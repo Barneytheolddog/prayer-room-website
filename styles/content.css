@@ -23,9 +23,6 @@ body {
 
 
 
-
-
-
 .left-section {
     width: 300px;
     height:56px;
@@ -135,7 +132,7 @@ body {
     justify-content:center;
     background-color: rgb(133,133,183);
     border-radius:30px;
- 
+
 }
 .contact-description {
     display:flex;
