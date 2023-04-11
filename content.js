@@ -5,7 +5,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 // Call the function every 5 seconds using setInterval()
-setInterval(myFunction, 5000);
+setInterval(myFunction, 1000);
     var element = document.querySelector('.mobile-hide');
     element.style.display = 'none';
 } else {
