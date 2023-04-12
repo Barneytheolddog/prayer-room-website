@@ -1,13 +1,15 @@
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    function myFunction() {
-  // Code to be executed
-  alert('This website is not compatible on mobile devices')
+  // Alert message to be displayed
+  function mobileAlert() {
+    alert('This website is not compatible on mobile devices');
+  }
 
+  // Call the function every 1 second using setInterval()
+  setInterval(mobileAlert, 1000);
 
-// Call the function every 5 seconds using setInterval()
-setInterval(myFunction, 500);
-    var element = document.querySelector('.mobile-hide');
-    element.style.display = 'none';
+  // Hide the element with class "mobile-hide"
+  var element = document.querySelector('.mobile-hide');
+  element.style.display = 'none';
 } else {
-    // code to run if user is on a desktop device
+  // code to run if user is on a desktop device
 }
