@@ -4,6 +4,10 @@ body {
   background-color: rgb(224, 224, 224);
 }
 
+#home-unfilled {
+    width:30px !important;
+    padding-top:10px;
+}
 
 
 .header {
