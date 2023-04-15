@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Room</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/games.css">
+
+</head>
+<body>
+    <div class="mobile-hide">
+   <div class="header">
+    <div class="left-section">
+       <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+       <img src="icons/company-logo.jpg" class="company-logo">
+    </div>
+    <div class="middle-section">
+        <div class="title">Prayer Room</div>
+    </div>
+    <div class="right-section">
+        <div class="title-heathrow">Heathrow</div>
+    </div>
+
+
+
+
+
+
+   </div>
+   <div class="sidebar">
+        <a class="sidebar-square" id="home-icon"><img src="icons/home-unfilled.png" class="sidebar-image" ><div>Home</div></a>
+        <a class="sidebar-square" href="rules.html" class="rules-icon"><img src="icons/youtube-apps.svg" class="sidebar-image"><div>Rules</div></a>
+        <a class="sidebar-square" class="author-icon" href="author.html"><img src="icons/book-open.jpg"  class="sidebar-image"><div>Author</div></a>
+        <a class="sidebar-square" id="games-icon"><img src="icons/games.filled.png" class="sidebar-image"><div>Games</div></a>
+   </div>
+   <div class="content">
+    <div class="description tic">TicTacToe! against computer</div>
+
+      <div class="tic-tac-toe">
+      
+        <div class="cell topLeft" onclick="fillCell('topLeft'); checkWin();"></div>
+        <div class="cell topMiddle" onclick=" fillCell('topMiddle'); checkWin();"></div>
+        <div class="cell topRight" onclick="fillCell('topRight'); checkWin();"></div>
+        <div class="cell middleLeft" onclick="fillCell('middleLeft'); checkWin();"></div>
+        <div class="cell middleMiddle" onclick="fillCell('middleMiddle'); checkWin();"></div>
+        <div class="cell middleRight" onclick="fillCell('middleRight'); checkWin();"></div>
+        <div class="cell bottomLeft" onclick="fillCell('bottomLeft'); checkWin();"></div>
+        <div class="cell bottomMiddle" onclick="fillCell('bottomMiddle'); checkWin();"></div>
+        <div class="cell bottomRight" onclick="fillCell('bottomRight'); checkWin();"></div>
+      </div>
+
+      <div class="info">
+      <div class="whoWon"></div>
+      <div class="score"></div>
+      <button class="playAgain tic-button" onclick="playAgain();">Play again / Reset board</button>
+      <button class="resetScore tic-button" onclick="resetScore();">Reset Score</button>
+      </div>
+
+
+
+
+
+        </div>
+
+        <div class="cookie-clicker">
+
+          <div class="description clickerdesc">Cookie Clicker!</div><br>
+
+          <button class="cookie-button" onclick="clickOnCookie();"><img src="icons/cookie.jpg" ></button>
+
+          <div class="cookie-amount"></div>
+
+          <div class="upgrades">
+
+            <div class="items">
+              <!-- addclick -->
+              <div class="addClick">
+
+                <button class="addClickButton" onclick="upgradeClickValue();">
+
+                <div class="addClickItemImage">
+
+                  <img src="icons/cursor.png" class="addClickImage">
+
+                </div>
+
+                </button>
+
+                <div class="addClickNameAndPrice">
+                  <div class="addClickName">Add to click</div>
+                  <div class="addClickPrice"></div>
+                </div>
+                <div class="addClickAmount"></div>
+                
+              </div>
+
+
+
+              <!-- autoclick -->
+
+
+
+              <div class="autoclicker">
+
+                <button class="autoclickerButton" onclick="upgradeAutoclickerValue();">
+
+                <div class="autoclickerItemImage">
+
+                  <img src="icons/cursor-click.png" class="addClickImage">
+
+                </div>
+
+                </button>
+
+                <div class="autoclickerNameAndPrice">
+                  <div class="autoclickerName">Autoclicker</div>
+                  <div class="autoclickerPrice"></div>
+                </div>
+                <div class="autoclickerAmount"></div>
+                
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+</body>
+    <script src="games.js"></script>
+    <script src="cookie.js"></script>
+</html>
